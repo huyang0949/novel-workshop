@@ -2,15 +2,15 @@
 
 ## 目标
 
-审阅指定草稿，输出结构化审稿报告到 `perigee/reviews/`。
+审阅指定草稿，输出结构化审稿报告到 `workflow/reviews/`。
 
 ## 输入
 
 必须读取：
 
 - 待审草稿，例如 `perigee/drafts/chapter-001.md`
-- `perigee/working/chapter-intent.md`
-- `perigee/working/context-pack.md`
+- `workflow/working/chapter-intent.md`
+- `workflow/working/context-pack.md`
 - `perigee/canon/book-profile.md`
 - `perigee/canon/world-state.md`
 - `perigee/canon/characters.md`
@@ -34,7 +34,7 @@
 
 ## 输出格式
 
-写入 `perigee/reviews/chapter-XXX.review.md`：
+写入 `workflow/reviews/chapter-XXX.review.md`：
 
 ```markdown
 # chapter-XXX 审稿报告

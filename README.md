@@ -6,25 +6,31 @@
 
 | 目录 | 说明 |
 |---|---|
-| `perigee/` | 现代异能灾变题材项目，已建立轻量写作工作台 |
+| `perigee/` | 现代异能灾变题材项目，只放小说内部资料 |
+| `workflow/` | 写作流程、模板、审稿和参考分析 |
 | `the_musician_of_dreams/` | 独立作品资料目录 |
 | `.agents/` | AI 写作流程手册 |
 
 ## perigee 工作流
 
-`perigee/` 采用轻量状态机：
+`perigee/` 只保留小说本身相关内容；写作流程、模板、审稿、候选推演和参考拆解统一放在 `workflow/`。
+
+推荐流程：
 
 ```text
-chapter-intent -> context-pack -> draft -> review -> revision -> canon update
+workflow/working -> perigee/drafts -> workflow/reviews -> revision -> perigee/canon
 ```
 
 核心目录：
 
 - `perigee/canon/`：已确认正史入口。
-- `perigee/working/`：当前写作任务和上下文包。
+- `perigee/worldview/`：世界观、能力、人物与组织设定。
+- `perigee/plot/`：卷纲和长线剧情规划。
 - `perigee/drafts/`：章节草稿和修订稿。
-- `perigee/reviews/`：审稿报告。
-- `perigee/forecasts/`：候选剧情推演，不自动进入正史。
+- `workflow/working/`：当前写作任务和上下文包。
+- `workflow/reviews/`：审稿报告。
+- `workflow/forecasts/`：候选剧情推演，不自动进入正史。
+- `workflow/model/`：拆解、对照和参考分析。
 
 常用流程见 `.agents/`：
 

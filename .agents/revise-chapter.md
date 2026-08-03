@@ -9,9 +9,9 @@
 必须读取：
 
 - 原草稿，例如 `perigee/drafts/chapter-001.md`
-- 审稿报告，例如 `perigee/reviews/chapter-001.review.md`
-- `perigee/working/context-pack.md`
-- `perigee/working/chapter-intent.md`
+- 审稿报告，例如 `workflow/reviews/chapter-001.review.md`
+- `workflow/working/context-pack.md`
+- `workflow/working/chapter-intent.md`
 
 按需读取：
 
@@ -31,4 +31,4 @@
 
 - 不直接覆盖原草稿。
 - 不新增审稿报告外的大幅剧情变化，除非用户明确要求。
-- 不自动回写 `canon/`；定稿后再由用户确认是否同步章节摘要和伏笔状态。
+- 不自动回写 `perigee/canon/`；定稿后再由用户确认是否同步章节摘要和伏笔状态。

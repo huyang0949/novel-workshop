@@ -14,8 +14,8 @@
 
 ## 通用约束
 
-- 先读作品目录下的 `canon/README.md` 和 `working/README.md`。
-- 候选内容放 `forecasts/` 或 `working/`，不要直接写入 `canon/`。
-- 修改 `canon/` 前必须明确说明要回写的事实，并等待用户确认。
+- 先读作品目录下的 `perigee/canon/README.md` 和 `workflow/README.md`。
+- 候选内容放 `workflow/forecasts/` 或 `workflow/working/`，不要直接写入 `perigee/canon/`。
+- 修改 `perigee/canon/` 前必须明确说明要回写的事实，并等待用户确认。
 - 不把大体量源文件全文复制进上下文包；只提炼与当前任务有关的事实。
 - 如果发现原始资料存在乱码、冲突或缺口，先报告，不做批量替换。

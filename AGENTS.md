@@ -13,12 +13,14 @@
 1. `perigee/canon/`
 2. `perigee/worldview/`
 3. `perigee/plot/`
-4. `perigee/working/`
-5. `perigee/drafts/`
-6. `perigee/reviews/`
-7. `.agents/`
+4. `perigee/drafts/`
+5. `workflow/working/`
+6. `workflow/reviews/`
+7. `workflow/forecasts/`
+8. `workflow/model/`
+9. `.agents/`
 
-`canon/` 只放已确认事实；`working/` 和 `forecasts/` 只放临时内容和待验证推演。
+`perigee/canon/` 只放已确认事实；`workflow/` 只放流程、模板和待验证推演。
 
 ## 目录职责
 
@@ -27,10 +29,11 @@
 | `perigee/canon/` | 已确认正史、稳定设定、时间线和角色定稿 |
 | `perigee/worldview/` | 世界观总设定、能力规则、人物与组织设定、设定审查 |
 | `perigee/plot/` | 卷纲、主线推进、剧情弧线 |
-| `perigee/working/` | 当前写作任务、上下文包、章节意图 |
+| `workflow/working/` | 当前写作任务、上下文包、章节意图 |
 | `perigee/drafts/` | 章节草稿、修订稿 |
-| `perigee/reviews/` | 审稿意见、问题清单、修改建议 |
-| `perigee/forecasts/` | 候选剧情推演，不直接当正史 |
+| `workflow/reviews/` | 审稿意见、问题清单、修改建议 |
+| `workflow/forecasts/` | 候选剧情推演，不直接当正史 |
+| `workflow/model/` | 作品拆解、参考分析和辅助材料 |
 | `.agents/` | 可复用的写作工作流说明 |
 
 ## 小说编写规范
@@ -40,12 +43,12 @@
 - 角色必须有清晰目标、阻力和后果，不能只做设定展示器。
 - 信息揭示要分层，避免一次性把背景全讲完。
 - 异能、组织、制度、社会反应要联动，不能和剧情脱节。
-- 已确认设定优先于临时灵感；需要变更时先记录冲突，再考虑是否回写 `canon/`。
+- 已确认设定优先于临时灵感；需要变更时先记录冲突，再考虑是否回写 `perigee/canon/`。
 - 章节结尾最好保留余波、代价、转折或钩子，避免平收。
 
 ## 世界观与设定规范
 
-- `canon/` 只能记录已确认内容，不写“也许”“可能”的候选推演。
+- `perigee/canon/` 只能记录已确认内容，不写“也许”“可能”的候选推演。
 - `worldview/` 可以写规则、边界、样例和待确认项，但要标清层级。
 - 能力必须写清：核心变量、作用对象、触发条件、范围、持续时间、代价、可观察痕迹、硬边界、克制方式。
 - 不允许无条件免疫、无代价复活、无限扩张、绝对预知这类设定直接进入正式内容。
@@ -64,7 +67,7 @@
 ## 协作约定
 
 - 修改前先读对应目录的 `README.md` 和相关设定文件。
-- 不要把 `working/`、`forecasts/` 里的内容直接当正史写入 `canon/`。
+- 不要把 `workflow/working/`、`workflow/forecasts/` 里的内容直接当正史写入 `perigee/canon/`。
 - 大范围改文档时保持变更聚焦，避免顺手重写无关内容。
 - 发现设定冲突时，优先记录冲突来源，再决定修订方式。
 - 需要输出审稿意见时，优先指出冲突、漏洞、缺失边界和不一致之处。

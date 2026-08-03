@@ -1,6 +1,6 @@
 # canon 入口
 
-`canon/` 保存已经确认进入正史的稳定资料。AI 写作、审稿和修订前，应优先读取本目录，再按需要回到 `worldview/`、`plot/`、`model/` 查细节。
+`canon/` 保存已经确认进入正史的稳定资料。AI 写作、审稿和修订前，应优先读取本目录，再按需要回到 `worldview/`、`plot/`、`workflow/model/` 查细节。
 
 ## 文件分工
 
@@ -14,6 +14,6 @@
 
 ## 使用规则
 
-- `canon/` 只记录已确认内容；脑暴、候选路线和未定设定放入 `forecasts/` 或 `working/`。
+- `canon/` 只记录已确认内容；脑暴、候选路线和未定设定放入 `workflow/forecasts/` 或 `workflow/working/`。
 - 写作输出不能自动改写 `canon/`；只有用户确认采用后，才把结论同步进来。
 - 发现 `canon/` 与 `worldview/`、`plot/` 冲突时，先记录冲突，不要自行合并。

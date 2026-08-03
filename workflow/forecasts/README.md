@@ -1,6 +1,6 @@
 # forecasts
 
-`forecasts/` 保存剧情推演和候选路线。这里的内容不是正史，不能自动写入 `canon/`。
+`forecasts/` 保存剧情推演和候选路线。这里的内容不是正史，不能自动写入 `perigee/canon/`。
 
 ## 使用场景
 
@@ -12,5 +12,5 @@
 ## 规则
 
 - 每份推演必须标注“采用状态”：候选、采用、废弃。
-- 采用后再同步到 `working/current-focus.md` 或 `canon/open-hooks.md`。
+- 采用后再同步到 `workflow/working/current-focus.md` 或 `perigee/canon/open-hooks.md`。
 - 废弃方案保留原因，避免后续重复推演。
